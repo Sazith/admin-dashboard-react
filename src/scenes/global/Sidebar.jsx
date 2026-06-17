@@ -78,7 +78,8 @@ const Sidebar = () => {
                 display="flex"
                 justifyContent="flex-end"
                  width="100%"
-                ml="15px"
+                // ml="15px"
+                mr="20px"
               >
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuIcon/>
